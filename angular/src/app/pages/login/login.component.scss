@@ -1,0 +1,12 @@
+.login-wrap { min-height:100vh; display:flex; align-items:center; justify-content:center; background:#f8fafc; }
+.login-card { background:#fff; border:1px solid #e2e8f0; border-radius:12px; padding:40px; width:100%; max-width:400px;
+  h1 { font-size:22px; font-weight:600; color:#1e293b; margin-bottom:4px; }
+  p  { font-size:14px; color:#64748b; margin-bottom:24px; } }
+.field { display:flex; flex-direction:column; gap:5px; margin-bottom:14px;
+  label { font-size:12px; font-weight:600; color:#64748b; text-transform:uppercase; letter-spacing:.04em; }
+  input { border:1.5px solid #e2e8f0; border-radius:8px; padding:9px 12px; font-size:14px;
+    &:focus { outline:none; border-color:#3b82f6; } } }
+button { width:100%; background:#1e40af; color:#fff; border:none; border-radius:8px; padding:11px;
+  font-size:14px; font-weight:600; cursor:pointer; margin-top:6px;
+  &:hover { background:#1d3a96; } &:disabled { opacity:.6; cursor:not-allowed; } }
+.error { background:#fef2f2; color:#b91c1c; border-radius:6px; padding:8px 12px; font-size:13px; margin-bottom:10px; }
